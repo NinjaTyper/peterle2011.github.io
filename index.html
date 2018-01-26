@@ -13,14 +13,14 @@
         { alert(text); }
 
         function updatebutton(text)
-        { document.getElementById("button1").value = text;}
+        { document.getElementById("myButton1").value = text;}
     </script>
 </head>
 <body class="blue">
     <div>
         <h1>Peter Le</h1>
-        <button id="button1" onclick="say('button')">Button</button>
-		<button id="button2" onclick="updatebutton('phu')">UpdateButton</button>
+        <input type="button" value="say something" id="myButton1" onclick="say('phule')"></input>
+		<input type="button" value="update button 1" id="myButton2" onclick="updatebutton('new updated value')"></input> 
     </div>
 </body>
 </html>
