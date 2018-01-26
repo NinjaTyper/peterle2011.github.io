@@ -11,12 +11,16 @@
     <script>
         function say(text)
         { alert(text); }
+
+        function updatebutton(text)
+        { document.getElementById("button1").value = text;}
     </script>
 </head>
 <body class="blue">
     <div>
         <h1>Peter Le</h1>
-        <button onclick="say('button')">Button</button>
+        <button id="button1" onclick="say('button')">Button</button>
+		<button id="button2" onclick="updatebutton('phu')">UpdateButton</button>
     </div>
 </body>
 </html>
